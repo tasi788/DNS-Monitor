@@ -1,3 +1,9 @@
 name = "dns-monitor"
 main = "src/index.js"
 compatibility_date = "2023-03-03"
+
+[vars]
+dns_name = ""
+home_lab = ""
+remote_server = ""
+zone_id = ""

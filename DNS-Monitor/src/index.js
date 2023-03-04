@@ -30,9 +30,7 @@ async function changeDNS(bool) {
       'Authorization': `Bearer ${cf_token}`
     },
   };
-  console.log(init);
   let r = await fetch(url + `/${record_id}`, init);
-  console.log(await r.json());
 }
 
 /**
